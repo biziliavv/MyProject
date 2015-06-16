@@ -36,7 +36,7 @@ import static org.junit.Assert.*;
 
 public class ShiwaforceTest {
 
-    private AppiumDriver driver;
+    private WebDriver driver;
 
     @Before
     public void setUp() throws Exception {
