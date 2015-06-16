@@ -36,7 +36,7 @@ import static org.junit.Assert.*;
 
 public class ShiwaforceTest {
 
-    private WebDriver driver;
+    private AppiumDriver driver;
 
     @Before
     public void setUp() throws Exception {
@@ -52,18 +52,18 @@ public class ShiwaforceTest {
         capabilities.setCapability("app", app.getAbsolutePath());
         //       capabilities.setCapability("app", "/Users/admin/Library/Developer/Xcode/DerivedData/karmaplatform-dlgwpadqmehxlpdcconqkavvsbun/Build/Products/Debug-iphoneos/karmaplatform.app");
 
-        driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-//        driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-//
-//
-//            public MobileElement scrollTo(String s) {
-//                return null;
-//            }
-//
-//            public MobileElement scrollToExact(String s) {
-//                return null;
-//            }
-//        };
+//        driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
+
+
+            public MobileElement scrollTo(String s) {
+                return null;
+            }
+
+            public MobileElement scrollToExact(String s) {
+                return null;
+            }
+        };
 
 
     }
