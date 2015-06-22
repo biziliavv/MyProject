@@ -14,6 +14,7 @@ import java.awt.*;
 import java.awt.event.InputEvent;
 import java.io.File;
 import java.io.IOException;
+import java.lang.Thread;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Set;
@@ -53,7 +54,7 @@ public class ShiwaforceTest {
         //       capabilities.setCapability("app", "/Users/admin/Library/Developer/Xcode/DerivedData/karmaplatform-dlgwpadqmehxlpdcconqkavvsbun/Build/Products/Debug-iphoneos/karmaplatform.app");
 
 //        driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-        driver = new AppiumDriver(new URL("http://127.0.0.1:1111/wd/hub"), capabilities) {
+        driver = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {
 
 
             public MobileElement scrollTo(String s) {
@@ -197,10 +198,11 @@ public class ShiwaforceTest {
     public void blatesting() throws InterruptedException {
 
         driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-        driver.runAppInBackground(2);
-        driver.closeApp();
-        Thread.sleep(5000);
-        driver.getAppStrings();
+        driver.findElement(By.xpath("//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATableView[1]/UIATableCell[1]/UIAStaticText[1]")).click();
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//UIAApplication[1]/UIAWindow[2]/UIAScrollView[1]/UIAScrollView[1]/UIAWebView[1]/UIATextField[1]")).sendKeys("bla@test.com");
+
+
     }
 }
 
