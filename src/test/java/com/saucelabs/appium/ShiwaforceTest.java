@@ -45,7 +45,6 @@ public class ShiwaforceTest {
         //Appium needs the path of app build
         //Set up the desired capabilities and pass the iOS SDK version and app path to Appium
         File app = new File("/Users/admin/Library/Developer/Xcode/DerivedData/karmaplatform-dlgwpadqmehxlpdcconqkavvsbun/Build/Products/Debug-iphonesimulator/karmaplatform.app");
-        Runtime.getRuntime().exec("open /Applications/Appium.app");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("appium-version", "1.0");
         capabilities.setCapability("platformName", "iOS");
