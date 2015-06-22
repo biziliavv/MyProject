@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shiwa.ShiwaforceTest" time="1.284" tests="2" errors="2" skipped="0" failures="0">
+<testsuite name="com.shiwa.ShiwaforceTest" time="1.161" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Mvn"/>
@@ -21,7 +21,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="SECURITYSESSIONID" value="186a5"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#28"/>
+    <property name="BUILD_DISPLAY_NAME" value="#30"/>
     <property name="TMPDIR" value="/var/folders/5n/txj1p6jn6kjb9v5vlwk4ltfm0000gn/T/"/>
     <property name="sun.boot.library.path" value="/Users/admin/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib"/>
     <property name="java.version" value="1.8.0_45"/>
@@ -31,7 +31,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.endorsed.dirs" value="/Users/admin/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="28"/>
+    <property name="BUILD_ID" value="30"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -48,7 +48,7 @@
     <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.45-b02"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="2589f99ffb8523c35674b88d525680a9fbe55fd6"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="8962a5713889db23e64fcb763c018460d518c4c2"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="JAVA_HOME" value="/Users/admin/.jenkins/tools/hudson.model.JDK/JAVA_HOME"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
@@ -60,7 +60,7 @@
     <property name="HOME" value="/Users/admin"/>
     <property name="POM_GROUPID" value="com.saucelabs"/>
     <property name="user.home" value="/Users/admin"/>
-    <property name="BUILD_TAG" value="jenkins-Mvn-28"/>
+    <property name="BUILD_TAG" value="jenkins-Mvn-30"/>
     <property name="JENKINS_SERVER_COOKIE" value="21baabe5b50f9a02"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
@@ -74,7 +74,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/Users/admin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME"/>
     <property name="java.class.path" value="/Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/Users/admin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/boot/plexus-classworlds-2.5.1.jar:/Users/admin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /Users/admin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME /Users/admin/.jenkins/war/WEB-INF/lib/remoting-2.51.jar /Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 51030"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /Users/admin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME /Users/admin/.jenkins/war/WEB-INF/lib/remoting-2.51.jar /Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 51200"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PATH+JDK" value="/Users/admin/.jenkins/tools/hudson.model.JDK/JAVA_HOME/bin"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -84,7 +84,7 @@
     <property name="java.io.tmpdir" value="/var/folders/5n/txj1p6jn6kjb9v5vlwk4ltfm0000gn/T/"/>
     <property name="HUDSON_HOME" value="/Users/admin/.jenkins"/>
     <property name="PATH+MAVEN" value="/Users/admin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Mvn/28/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Mvn/30/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.RGBGOciJFc/Listeners"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -96,10 +96,10 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="/Users/admin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="28"/>
+    <property name="BUILD_NUMBER" value="30"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="GIT_COMMIT" value="2589f99ffb8523c35674b88d525680a9fbe55fd6"/>
+    <property name="GIT_COMMIT" value="8962a5713889db23e64fcb763c018460d518c4c2"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="maven3.interceptor" value="/Users/admin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
     <property name="WORKSPACE" value="/Users/admin/.jenkins/jobs/Mvn/workspace"/>
@@ -108,14 +108,14 @@
     <property name="USER" value="admin"/>
     <property name="GIT_URL" value="https://github.com/biziliavv/MyProject.git"/>
   </properties>
-  <testcase name="myCompanytesting" classname="com.shiwa.ShiwaforceTest" time="1.281">
+  <testcase name="myCompanytesting" classname="com.shiwa.ShiwaforceTest" time="1.153">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;Mac-Admin.local&apos;, ip: &apos;192.168.199.130&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'Mac-Admin.local', ip: '192.168.199.130', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_45'
 Driver info: driver.version: AppiumDriver
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
 	at java.net.Socket.connect(Socket.java:589)
@@ -143,14 +143,14 @@ Driver info: driver.version: AppiumDriver
 	at com.shiwa.ShiwaforceTest.setUp(ShiwaforceTest.java:57)
 ]]></error>
   </testcase>
-  <testcase name="blatesting" classname="com.shiwa.ShiwaforceTest" time="0.003">
+  <testcase name="blatesting" classname="com.shiwa.ShiwaforceTest" time="0.008">
     <error message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;Mac-Admin.local&apos;, ip: &apos;192.168.199.130&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'Mac-Admin.local', ip: '192.168.199.130', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_45'
 Driver info: driver.version: AppiumDriver
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
 	at java.net.Socket.connect(Socket.java:589)
