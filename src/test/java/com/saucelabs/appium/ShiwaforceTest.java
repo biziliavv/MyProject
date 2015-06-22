@@ -54,7 +54,7 @@ public class ShiwaforceTest {
         //       capabilities.setCapability("app", "/Users/admin/Library/Developer/Xcode/DerivedData/karmaplatform-dlgwpadqmehxlpdcconqkavvsbun/Build/Products/Debug-iphoneos/karmaplatform.app");
 
 //        driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-        driver = new AppiumDriver(new URL("http://127.0.0.1:2424/wd/hub"), capabilities) {
+        driver = new AppiumDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities) {
 
 
             public MobileElement scrollTo(String s) {
